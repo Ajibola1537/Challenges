@@ -116,7 +116,7 @@ const newAmountt =purchaseAmount3 - purchaseAmountt
 
 const customerAge11 = 50
 // console.log(newAmount);
-// console.log(purchaseAmount)
+// console.log(purchaseAount)
 // const age = prompt("Enter your age")
 const Payment = prompt ("Enter your payment")
 
