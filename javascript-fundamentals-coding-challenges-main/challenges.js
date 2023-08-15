@@ -5,7 +5,10 @@
 // const dessertCount1 = 3;
 // const restaurantLocation1 = "Domestic";
 
-
+ // Welldone, Mr JB for attempting this assignment, I really appreciate. You have demonstarted a general uderstandning of the challemge 
+//However, there is an issue with this approach. Subtracting both the discount and service charge from the total bill is incorrect.
+ // Instead, the discount should be applied first, and then the service charge should be applied to the discounted total.
+// Kindly Fix this at your earliest convenience and revert back to me.
 const mainCourseCount1 = 4000;
 const appetizerCount1 = 1000;
 const dessertCount1 = 500;
@@ -50,7 +53,7 @@ const totalBill0= mainCourseCount1 + appetizerCount1 + dessertCount1
 // const age3 = 14;
 // const vehicleType3 = "S";
 // // Output: "Not Eligible"
-
+// The solution is missing the logic to handle the vehicle type "S" correctly. Currently, it only mentions vehicle types "M" and "C".
 const age1 = 20;
 const vehicleType1 = "C";
 // Output: "Eligible"
@@ -81,6 +84,14 @@ else{
 
 }
 // =================TEST DATA FOR QUESTION 3===========
+// There are some variable names that seem to have typos. For example, age is used but not defined anywhere in the code, and Payment
+//should probably be purchaseAmount.
+
+//The logic to calculate the new amount after applying the discount is correct.
+//However, the logic should differentiate between senior citizen discounts and non-senior discounts based on both age and purchase amount.
+
+// The condition for checking if the payment is greater than 100 is not in line with the requirement. 
+//The discount is based on the purchase amount, not the payment.
 
 const customerAge1 = 50;
 const purchaseAmount1 = 80;
